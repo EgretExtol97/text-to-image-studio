@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model weights & caches (large, never commit)
+models/checkpoints/*.safetensors
+models/checkpoints/*.ckpt
+models/checkpoints/*.bin
+models/loras/*.safetensors
+models/vae/*.safetensors
+.cache/
+huggingface/
+torch_extensions/
+
+# Generated outputs
+outputs/
+gallery/
+*.png
+*.jpg
+*.jpeg
+*.webp
+!docs/**/*.png
+
+# Runtime
+*.log
+logs/
+*.pid
+*.sqlite
+*.db
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+secrets.toml
+config/local.toml
