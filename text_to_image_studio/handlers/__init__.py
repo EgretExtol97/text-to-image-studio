@@ -1,0 +1,1 @@
+"""HTTP ingest handlers. Thin: parse, validate, enqueue, return."""
